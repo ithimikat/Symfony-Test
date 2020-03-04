@@ -1,0 +1,7 @@
+index:
+    path: /
+    controller: App\Controller\SiteController::index
+
+show:
+    path: /show
+    controller: App\Controller\SiteController::show
