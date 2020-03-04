@@ -8,11 +8,15 @@ class SiteController extends AbstractController
 {
     public function index()
     {
-        echo "hello i'm index";
+        return $this->render("site/index.html.twig", [
+            'name' => 'INDEX'
+        ]);
     }
 
     public function show()
     {
-        echo "hello i'm show";
+        return $this->render("site/index.html.twig", [
+            'name' => 'SHOW'
+        ]);
     }
 }
